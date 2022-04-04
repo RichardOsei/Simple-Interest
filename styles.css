@@ -1,5 +1,5 @@
 body {
-    background-color:#ffffff;
+    background-color:#0b0c10;
     font-family:Montserrat;
     color:#0b0c10;
 }
@@ -8,7 +8,7 @@ body {
 
     padding-top: 100px;
     border-radius: 60px;
-    background-color: #111111;
+    background-color: #e0e0e0;
     text-align: center;
     height:60%;
     width: 85%;
@@ -17,7 +17,7 @@ body {
     position: relative;
     font-size: 15px;
     margin: auto;
-    color: #fff;
+    color: #0b0c10;
        
   }
   
@@ -25,6 +25,17 @@ body {
       border-radius: 50px;
       width: 100px;
       height: 40px;
+      border:0px;
+      border-radius: 50px;
+      background: #e0e0e0;
+      box-shadow:  15px 15px 50px #bebebe,
+             -15px -15px 50px #ffffff;
+  }
+
+  .btn:hover{
+    background-color: #0b0c10;
+    color: #e0e0e0;
+    transition: 0.2s;
   }
 
   #p{
@@ -34,4 +45,5 @@ body {
   #y{
     border-radius: 50px;
     width: 40px;
+    border:0px;
   }
